@@ -14,6 +14,14 @@
 		00A3208E1EBD951100B3E46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A3208C1EBD951100B3E46E /* LaunchScreen.storyboard */; };
 		00A320991EBD951200B3E46E /* Tab_Bar_PickersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A320981EBD951200B3E46E /* Tab_Bar_PickersTests.swift */; };
 		00A320A41EBD951200B3E46E /* Tab_Bar_PickersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A320A31EBD951200B3E46E /* Tab_Bar_PickersUITests.swift */; };
+		00A320B21EBD957600B3E46E /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A320B11EBD957600B3E46E /* DatePickerViewController.swift */; };
+		00A320B41EBD958E00B3E46E /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A320B31EBD958E00B3E46E /* SingleComponentPickerViewController.swift */; };
+		00A320B61EBD95A700B3E46E /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A320B51EBD95A700B3E46E /* DoubleComponentPickerViewController.swift */; };
+		00A320B81EBD95BB00B3E46E /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A320B71EBD95BB00B3E46E /* DependentComponentPickerViewController.swift */; };
+		00A320BA1EBD95CB00B3E46E /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A320B91EBD95CB00B3E46E /* CustomPickerViewController.swift */; };
+		00A320BE1EBFD98C00B3E46E /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00A320BD1EBFD98C00B3E46E /* statedictionary.plist */; };
+		00A320C11EBFE6E100B3E46E /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00A320BF1EBFE6E100B3E46E /* crunch.wav */; };
+		00A320C21EBFE6E100B3E46E /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00A320C01EBFE6E100B3E46E /* win.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		00A3209F1EBD951200B3E46E /* Tab Bar PickersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tab Bar PickersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A320A31EBD951200B3E46E /* Tab_Bar_PickersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_Bar_PickersUITests.swift; sourceTree = "<group>"; };
 		00A320A51EBD951200B3E46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A320B11EBD957600B3E46E /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		00A320B31EBD958E00B3E46E /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		00A320B51EBD95A700B3E46E /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		00A320B71EBD95BB00B3E46E /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		00A320B91EBD95CB00B3E46E /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		00A320BD1EBFD98C00B3E46E /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		00A320BF1EBFE6E100B3E46E /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		00A320C01EBFE6E100B3E46E /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,14 @@
 				00A3208A1EBD951100B3E46E /* Assets.xcassets */,
 				00A3208C1EBD951100B3E46E /* LaunchScreen.storyboard */,
 				00A3208F1EBD951100B3E46E /* Info.plist */,
+				00A320BD1EBFD98C00B3E46E /* statedictionary.plist */,
+				00A320B11EBD957600B3E46E /* DatePickerViewController.swift */,
+				00A320B31EBD958E00B3E46E /* SingleComponentPickerViewController.swift */,
+				00A320B51EBD95A700B3E46E /* DoubleComponentPickerViewController.swift */,
+				00A320BF1EBFE6E100B3E46E /* crunch.wav */,
+				00A320C01EBFE6E100B3E46E /* win.wav */,
+				00A320B71EBD95BB00B3E46E /* DependentComponentPickerViewController.swift */,
+				00A320B91EBD95CB00B3E46E /* CustomPickerViewController.swift */,
 			);
 			path = "Tab Bar Pickers";
 			sourceTree = "<group>";
@@ -232,8 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A320C11EBFE6E100B3E46E /* crunch.wav in Resources */,
 				00A3208E1EBD951100B3E46E /* LaunchScreen.storyboard in Resources */,
 				00A3208B1EBD951100B3E46E /* Assets.xcassets in Resources */,
+				00A320C21EBFE6E100B3E46E /* win.wav in Resources */,
+				00A320BE1EBFD98C00B3E46E /* statedictionary.plist in Resources */,
 				00A320891EBD951100B3E46E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +288,11 @@
 			files = (
 				00A320861EBD951100B3E46E /* ViewController.swift in Sources */,
 				00A320841EBD951100B3E46E /* AppDelegate.swift in Sources */,
+				00A320B81EBD95BB00B3E46E /* DependentComponentPickerViewController.swift in Sources */,
+				00A320B61EBD95A700B3E46E /* DoubleComponentPickerViewController.swift in Sources */,
+				00A320BA1EBD95CB00B3E46E /* CustomPickerViewController.swift in Sources */,
+				00A320B41EBD958E00B3E46E /* SingleComponentPickerViewController.swift in Sources */,
+				00A320B21EBD957600B3E46E /* DatePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +539,7 @@
 				00A320AA1EBD951200B3E46E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A320AB1EBD951200B3E46E /* Build configuration list for PBXNativeTarget "Tab Bar PickersTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +548,7 @@
 				00A320AD1EBD951200B3E46E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A320AE1EBD951200B3E46E /* Build configuration list for PBXNativeTarget "Tab Bar PickersUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +557,7 @@
 				00A320B01EBD951200B3E46E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
